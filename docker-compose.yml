@@ -1,0 +1,10 @@
+version: "3.10.1"
+
+services:
+
+web:
+
+build: .
+
+volumes:
+  - .:/app
